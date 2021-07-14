@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css/fortune.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<section class = "scrathed-in">  
+   <div class= "pattern"></div>
+<canvas class = "in"></canvas>
+</section>  
+
+<section class = "scrathed-out">
+    <div class= "lineup">
+        
+<script type="text/javascript">
+    var fortune = new Array
+    
+    ('img/1.jpg', 'img/2.jpg', 'img/3.jpg', 
+    'img/4.jpg', 'img/5.jpg', 'img/6.jpg', 'img/7.jpg');
+    
+    var Idx = Math.floor(Math.random() * fortune.length);
+    document.write('<img src="'+fortune[Idx]+'">');
+    </script>
+    </div>
+<canvas class = "out"></canvas>
+</section>  
+
+
+<div class="cursor"></div>
+
+<script src="js/code.js"></script>
+</body>
+</html>

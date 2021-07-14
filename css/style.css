@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Hanson";
+    src: url('../fonts/Hanson-Bold.otf');
+}
+body {
+    height: 100vh;
+    overflow:hidden;
+    background-color: #070303;
+
+}
+section {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+section iframe{
+
+    height: 70vh;
+    width: 70vw;
+}
+
+button {
+    text-align: center;
+    text-decoration: none;
+    font-family: "Hanson";
+    font-size: 16px;
+    color:indianred;
+    padding:0;
+    border: none;
+    background-color: transparent;
+    cursor:pointer;
+}
+button:hover {
+    color:turquoise;
+     border: none;
+    background-color: transparent;
+}
+button:active {
+    outline: none !important;
+    box-shadow: none !important;   
+}
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+div {
+    padding-top: 2%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    font-family: "Hanson";
+    color:#363636;
+    font-size: 48px;
+    padding-top: 2%;
+    margin-top:0%;
+    margin-bottom: 0%;
+    text-align: center;
+    pointer-events: none;
+}
+.links {
+position: absolute;
+right:15%;
+}
+.links a {
+    font-family: "Hanson";
+    text-decoration: none;
+    cursor: pointer;
+    color: indianred;
+    font-size: 16px;  
+}
+.links a:hover{
+    color:turquoise;    
+}
+.links {
+    text-align: right;
+    font-family: "Hanson";
+    color: #363636;
+    font-size: 8px;
+    
+}
